@@ -1,0 +1,264 @@
+{
+  "studentName": "Lina",
+  "currentLesson": {
+    "subject": "art",
+    "start": 615,
+    "end": 660,
+    "teacher": "Mme Chaabane",
+    "room": "Salle 1"
+  },
+  "daySteps": [
+    {
+      "subject": "ar",
+      "isLunch": false,
+      "time": "8h",
+      "done": true,
+      "now": false
+    },
+    {
+      "subject": "ma",
+      "isLunch": false,
+      "time": "9h",
+      "done": true,
+      "now": false
+    },
+    {
+      "subject": "art",
+      "isLunch": false,
+      "time": "10h",
+      "done": false,
+      "now": true
+    },
+    {
+      "subject": "ar",
+      "isLunch": false,
+      "time": "11h",
+      "done": false,
+      "now": false
+    },
+    {
+      "subject": null,
+      "isLunch": true,
+      "time": "12h",
+      "done": false,
+      "now": false
+    },
+    {
+      "subject": "sp",
+      "isLunch": false,
+      "time": "14h",
+      "done": false,
+      "now": false
+    },
+    {
+      "subject": "ev",
+      "isLunch": false,
+      "time": "15h",
+      "done": false,
+      "now": false
+    }
+  ],
+  "week": [
+    {
+      "label": "Lun",
+      "morning": [
+        {
+          "subject": "ar",
+          "time": "8h"
+        },
+        {
+          "subject": "ma",
+          "time": "9h"
+        },
+        {
+          "subject": "art",
+          "time": "10h"
+        },
+        {
+          "subject": "ar",
+          "time": "11h"
+        }
+      ],
+      "afternoon": [
+        {
+          "subject": "sp",
+          "time": "14h"
+        },
+        {
+          "subject": "ev",
+          "time": "15h"
+        }
+      ]
+    },
+    {
+      "label": "Mar",
+      "morning": [
+        {
+          "subject": "ma",
+          "time": "8h"
+        },
+        {
+          "subject": "ar",
+          "time": "9h"
+        },
+        {
+          "subject": "ar",
+          "time": "10h"
+        },
+        {
+          "subject": "ev",
+          "time": "11h"
+        }
+      ],
+      "afternoon": [
+        {
+          "subject": "art",
+          "time": "14h"
+        },
+        {
+          "subject": "ma",
+          "time": "15h"
+        }
+      ]
+    },
+    {
+      "label": "Mer",
+      "morning": [
+        {
+          "subject": "ar",
+          "time": "8h"
+        },
+        {
+          "subject": "ma",
+          "time": "9h"
+        },
+        {
+          "subject": "sp",
+          "time": "10h"
+        },
+        {
+          "subject": "ar",
+          "time": "11h"
+        }
+      ],
+      "afternoon": []
+    },
+    {
+      "label": "Jeu",
+      "morning": [
+        {
+          "subject": "ar",
+          "time": "8h"
+        },
+        {
+          "subject": "ma",
+          "time": "9h"
+        },
+        {
+          "subject": "ev",
+          "time": "10h"
+        },
+        {
+          "subject": "ar",
+          "time": "11h"
+        }
+      ],
+      "afternoon": [
+        {
+          "subject": "art",
+          "time": "14h"
+        },
+        {
+          "subject": "sp",
+          "time": "15h"
+        }
+      ]
+    },
+    {
+      "label": "Ven",
+      "morning": [
+        {
+          "subject": "ma",
+          "time": "8h"
+        },
+        {
+          "subject": "ar",
+          "time": "9h"
+        },
+        {
+          "subject": "ar",
+          "time": "10h"
+        },
+        {
+          "subject": "ma",
+          "time": "11h"
+        }
+      ],
+      "afternoon": [
+        {
+          "subject": "ev",
+          "time": "14h"
+        },
+        {
+          "subject": "art",
+          "time": "15h"
+        }
+      ]
+    },
+    {
+      "label": "Sam",
+      "morning": [
+        {
+          "subject": "ar",
+          "time": "8h"
+        },
+        {
+          "subject": "ma",
+          "time": "9h"
+        },
+        {
+          "subject": "sp",
+          "time": "10h"
+        }
+      ],
+      "afternoon": []
+    }
+  ],
+  "lessons": {
+    "ar": [
+      {
+        "glyph": "ب",
+        "title": "La lettre ب",
+        "isNew": true
+      },
+      {
+        "glyph": "ا",
+        "title": "La lettre ا",
+        "isNew": false
+      }
+    ],
+    "ma": [
+      {
+        "glyph": "5",
+        "title": "Compter jusqu’à 20",
+        "isNew": false
+      }
+    ],
+    "fr": [],
+    "ev": [
+      {
+        "glyph": "☀",
+        "title": "Le jour et la nuit",
+        "isNew": false
+      }
+    ],
+    "art": [
+      {
+        "glyph": "✿",
+        "title": "Dessiner une fleur",
+        "isNew": false
+      }
+    ],
+    "sp": []
+  }
+}

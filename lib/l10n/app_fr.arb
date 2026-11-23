@@ -1,0 +1,1293 @@
+{
+  "@@locale": "fr",
+  "appName": "Madrassti",
+  "@appName": {
+    "description": "Nom de l'application"
+  },
+  "appTagline": "L'école de mon enfant, dans ma poche.",
+  "@appTagline": {
+    "description": "Accroche du splash"
+  },
+  "appNameArabic": "مدرستي",
+  "@appNameArabic": {
+    "description": "Nom de l'application en arabe"
+  },
+  "appVersion": "Madrassti · version 1.0",
+  "@appVersion": {
+    "description": "Pied de page des réglages"
+  },
+  "openApp": "Ouvrir Madrassti",
+  "@openApp": {
+    "description": "Libellé accessible du splash"
+  },
+  "languageFrench": "Français",
+  "@languageFrench": {
+    "description": "Bouton de langue"
+  },
+  "languageArabic": "العربية",
+  "@languageArabic": {
+    "description": "Bouton de langue, en arabe"
+  },
+  "languageGroup": "Langue",
+  "@languageGroup": {
+    "description": "Libellé du groupe de langue"
+  },
+  "skip": "Passer",
+  "@skip": {
+    "description": "Lien pour passer l'introduction"
+  },
+  "next": "Suivant",
+  "@next": {
+    "description": "Bouton du carrousel"
+  },
+  "start": "Commencer",
+  "@start": {
+    "description": "Bouton de la dernière diapositive"
+  },
+  "slide1Title": "La journée de votre enfant, d’un coup d’œil",
+  "@slide1Title": {
+    "description": "Titre diapositive 1"
+  },
+  "slide1Body": "Le cours en ce moment, le suivant et ce qui change — sans chercher.",
+  "@slide1Body": {
+    "description": "Corps diapositive 1"
+  },
+  "slide2Title": "Les changements arrivent à temps",
+  "@slide2Title": {
+    "description": "Titre diapositive 2"
+  },
+  "slide2Body": "Absence d’un enseignant, horaire modifié, nouvelle leçon : vous êtes prévenu, sans être dérangé.",
+  "@slide2Body": {
+    "description": "Corps diapositive 2"
+  },
+  "slide3Title": "Parlez simplement avec l’enseignant",
+  "@slide3Title": {
+    "description": "Titre diapositive 3"
+  },
+  "slide3Body": "Des messages directs, respectueux et vérifiés, pour chaque enfant.",
+  "@slide3Body": {
+    "description": "Corps diapositive 3"
+  },
+  "slide1CardTitle": "La journée de Yassine",
+  "@slide1CardTitle": {
+    "description": "Titre de la carte illustrée, diapositive 1"
+  },
+  "nowUpper": "MAINTENANT",
+  "@nowUpper": {
+    "description": "Étiquette majuscule"
+  },
+  "tomorrowUpper": "DEMAIN",
+  "@tomorrowUpper": {
+    "description": "Étiquette majuscule"
+  },
+  "moderationBadge": "Messages vérifiés et bienveillants",
+  "@moderationBadge": {
+    "description": "Puce de la diapositive 3"
+  },
+  "roleTitle": "Qui utilise Madrassti ?",
+  "@roleTitle": {
+    "description": "Titre du choix de rôle"
+  },
+  "roleSubtitle": "Choisissez votre profil. L'école vous a envoyé un code pour le confirmer.",
+  "@roleSubtitle": {
+    "description": "Sous-titre du choix de rôle"
+  },
+  "roleGroup": "Profil",
+  "@roleGroup": {
+    "description": "Libellé du groupe de rôles"
+  },
+  "roleParent": "Parent",
+  "@roleParent": {
+    "description": "Rôle"
+  },
+  "roleParentDesc": "Suivre la journée, les leçons et parler aux enseignants.",
+  "@roleParentDesc": {
+    "description": "Description du rôle parent"
+  },
+  "roleParentHint": "Reçu par SMS ou sur le carnet de liaison. Un seul code suffit pour tous vos enfants.",
+  "@roleParentHint": {
+    "description": "Aide du rôle parent"
+  },
+  "roleStudent": "Élève",
+  "@roleStudent": {
+    "description": "Rôle"
+  },
+  "roleStudentDesc": "Sur le téléphone d’un parent ? Ouvrez le mode enfant.",
+  "@roleStudentDesc": {
+    "description": "Description du rôle élève"
+  },
+  "roleStudentHint": "Demandez le code à un parent. Il pourra verrouiller le mode enfant avec un code secret.",
+  "@roleStudentHint": {
+    "description": "Aide du rôle élève"
+  },
+  "roleTeacher": "Enseignant",
+  "@roleTeacher": {
+    "description": "Rôle"
+  },
+  "roleTeacherDesc": "Publier des leçons, signaler un changement, répondre aux parents.",
+  "@roleTeacherDesc": {
+    "description": "Description du rôle enseignant"
+  },
+  "roleTeacherHint": "Code fourni par la direction de votre école.",
+  "@roleTeacherHint": {
+    "description": "Aide du rôle enseignant"
+  },
+  "invitationCodeLabel": "Code d'invitation de l'école",
+  "@invitationCodeLabel": {
+    "description": "Libellé du champ code"
+  },
+  "invitationCodeHint": "Ex. : 4B-7K2Q",
+  "@invitationCodeHint": {
+    "description": "Exemple de code"
+  },
+  "continueLabel": "Continuer",
+  "@continueLabel": {
+    "description": "Bouton continuer"
+  },
+  "back": "Retour",
+  "@back": {
+    "description": "Libellé accessible du bouton retour"
+  },
+  "loginTitle": "Bon retour !",
+  "@loginTitle": {
+    "description": "Titre de l'écran de connexion"
+  },
+  "phoneLabel": "Numéro de téléphone",
+  "@phoneLabel": {
+    "description": "Libellé du champ téléphone"
+  },
+  "phoneHint": "12 345 678",
+  "@phoneHint": {
+    "description": "Exemple de numéro"
+  },
+  "passwordLabel": "Mot de passe",
+  "@passwordLabel": {
+    "description": "Libellé du champ mot de passe"
+  },
+  "passwordHint": "Votre mot de passe",
+  "@passwordHint": {
+    "description": "Exemple de mot de passe"
+  },
+  "showPassword": "Afficher le mot de passe",
+  "@showPassword": {
+    "description": "Libellé accessible"
+  },
+  "hidePassword": "Masquer le mot de passe",
+  "@hidePassword": {
+    "description": "Libellé accessible"
+  },
+  "signIn": "Se connecter",
+  "@signIn": {
+    "description": "Bouton de connexion"
+  },
+  "forgotPassword": "Mot de passe oublié ?",
+  "@forgotPassword": {
+    "description": "Lien de récupération"
+  },
+  "noAccountYet": "Pas encore de compte ?",
+  "@noAccountYet": {
+    "description": "Texte avant le lien d'inscription"
+  },
+  "createAccount": "Créer un compte",
+  "@createAccount": {
+    "description": "Lien d'inscription"
+  },
+  "signupStepLabel": "Étape {current} sur {total}",
+  "@signupStepLabel": {
+    "description": "Indicateur d'étape",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "signupDetailsTitle": "Vos informations",
+  "@signupDetailsTitle": {
+    "description": "Titre de l'étape 2"
+  },
+  "signupDetailsSubtitle": "Encore une étape et c'est prêt.",
+  "@signupDetailsSubtitle": {
+    "description": "Sous-titre de l'étape 2"
+  },
+  "firstNameLabel": "Prénom",
+  "@firstNameLabel": {
+    "description": "Libellé du champ prénom"
+  },
+  "lastNameLabel": "Nom",
+  "@lastNameLabel": {
+    "description": "Libellé du champ nom"
+  },
+  "passwordConfirmLabel": "Confirmer le mot de passe",
+  "@passwordConfirmLabel": {
+    "description": "Libellé de la confirmation"
+  },
+  "acceptTerms": "J'accepte les ",
+  "@acceptTerms": {
+    "description": "Début de la case à cocher des conditions"
+  },
+  "termsOfUse": "conditions d'utilisation",
+  "@termsOfUse": {
+    "description": "Lien des conditions d'utilisation"
+  },
+  "createMyAccount": "Créer mon compte",
+  "@createMyAccount": {
+    "description": "Bouton d'inscription"
+  },
+  "errorFirstName": "Indiquez votre prénom, s'il vous plaît.",
+  "@errorFirstName": {
+    "description": "Erreur de validation"
+  },
+  "errorLastName": "Indiquez votre nom, s'il vous plaît.",
+  "@errorLastName": {
+    "description": "Erreur de validation"
+  },
+  "errorPhone": "Un numéro tunisien compte 8 chiffres.",
+  "@errorPhone": {
+    "description": "Erreur de validation"
+  },
+  "errorPasswordShort": "Choisissez un mot de passe d'au moins 6 caractères.",
+  "@errorPasswordShort": {
+    "description": "Erreur de validation"
+  },
+  "errorPasswordEmpty": "Saisissez votre mot de passe.",
+  "@errorPasswordEmpty": {
+    "description": "Erreur de validation"
+  },
+  "errorPasswordMismatch": "Les deux mots de passe ne sont pas identiques.",
+  "@errorPasswordMismatch": {
+    "description": "Erreur de validation"
+  },
+  "errorTerms": "Merci d'accepter les conditions pour continuer.",
+  "@errorTerms": {
+    "description": "Erreur de validation"
+  },
+  "errorCode": "Saisissez le code envoyé par l'école.",
+  "@errorCode": {
+    "description": "Erreur de validation"
+  },
+  "greeting": "Bonjour {name}",
+  "@greeting": {
+    "description": "Salutation de l'accueil parent",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationsWithCount": "Notifications, {count} non lues",
+  "@notificationsWithCount": {
+    "description": "Libellé accessible de la cloche",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseChild": "Choisir un enfant",
+  "@chooseChild": {
+    "description": "Libellé du sélecteur d'enfant"
+  },
+  "importantChange": "Changement important",
+  "@importantChange": {
+    "description": "Libellé accessible de la carte d'alerte"
+  },
+  "seeTomorrow": "Voir demain",
+  "@seeTomorrow": {
+    "description": "Bouton de la carte d'alerte"
+  },
+  "understood": "Compris",
+  "@understood": {
+    "description": "Bouton pour masquer l'alerte"
+  },
+  "dayOf": "La journée de {name}",
+  "@dayOf": {
+    "description": "Titre du ruban de la journée",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "changeTomorrow": "Changement demain",
+  "@changeTomorrow": {
+    "description": "Puce de statut"
+  },
+  "normalDay": "Journée normale",
+  "@normalDay": {
+    "description": "Puce de statut"
+  },
+  "breakLabel": "Pause",
+  "@breakLabel": {
+    "description": "Étiquette de la pause dans le ruban"
+  },
+  "nowRemaining": "Maintenant · encore {minutes} min",
+  "@nowRemaining": {
+    "description": "Kicker de la carte en cours",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "nextLesson": "Ensuite : {name}",
+  "@nextLesson": {
+    "description": "Prochaine matière",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shortcuts": "Raccourcis",
+  "@shortcuts": {
+    "description": "Libellé de la grille de raccourcis"
+  },
+  "write": "Écrire",
+  "@write": {
+    "description": "Raccourci vers la messagerie"
+  },
+  "lessonsLabel": "Leçons",
+  "@lessonsLabel": {
+    "description": "Raccourci vers les leçons"
+  },
+  "theWeek": "La semaine",
+  "@theWeek": {
+    "description": "Raccourci vers l'emploi du temps"
+  },
+  "timetable": "Emploi du temps",
+  "@timetable": {
+    "description": "Sous-titre du raccourci semaine"
+  },
+  "recently": "Récemment",
+  "@recently": {
+    "description": "Titre de section"
+  },
+  "seeAll": "Tout voir",
+  "@seeAll": {
+    "description": "Lien vers la liste complète"
+  },
+  "weekRange": "Semaine du 23 au 28 novembre",
+  "@weekRange": {
+    "description": "Sur-titre de l'emploi du temps"
+  },
+  "weekDays": "Jours de la semaine",
+  "@weekDays": {
+    "description": "Libellé des onglets de jour"
+  },
+  "today": "Aujourd’hui",
+  "@today": {
+    "description": "Préfixe du jour courant"
+  },
+  "todayWithDay": "Aujourd’hui · {day}",
+  "@todayWithDay": {
+    "description": "Titre du jour courant",
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "daySummary": "{count} cours · {from}–{to}",
+  "@daySummary": {
+    "description": "Résumé du jour",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "lunchBreak": "Pause déjeuner",
+  "@lunchBreak": {
+    "description": "Ligne de pause"
+  },
+  "inProgress": "En cours",
+  "@inProgress": {
+    "description": "Puce du cours en cours"
+  },
+  "changed": "Modifié",
+  "@changed": {
+    "description": "Puce du cours modifié"
+  },
+  "replacesScience": "Remplace l'éveil scientifique · Mme Trabelsi absente",
+  "@replacesScience": {
+    "description": "Détail du cours modifié"
+  },
+  "freeAfternoon": "Après-midi libre, à demain !",
+  "@freeAfternoon": {
+    "description": "Message d'après-midi libre"
+  },
+  "changeLabel": "Changement",
+  "@changeLabel": {
+    "description": "Libellé accessible du point de changement"
+  },
+  "lessonsTitle": "Leçons et documents",
+  "@lessonsTitle": {
+    "description": "Titre de l'écran leçons"
+  },
+  "searchLesson": "Rechercher une leçon",
+  "@searchLesson": {
+    "description": "Placeholder de recherche"
+  },
+  "filterBySubject": "Filtrer par matière",
+  "@filterBySubject": {
+    "description": "Libellé des filtres"
+  },
+  "filterAll": "Toutes",
+  "@filterAll": {
+    "description": "Filtre : toutes les matières"
+  },
+  "filterFrench": "Français",
+  "@filterFrench": {
+    "description": "Filtre matière"
+  },
+  "filterMaths": "Maths",
+  "@filterMaths": {
+    "description": "Filtre matière"
+  },
+  "filterArabic": "Arabe",
+  "@filterArabic": {
+    "description": "Filtre matière"
+  },
+  "filterScience": "Éveil",
+  "@filterScience": {
+    "description": "Filtre matière"
+  },
+  "newLabel": "Nouveau",
+  "@newLabel": {
+    "description": "Puce nouveau"
+  },
+  "offline": "Hors connexion",
+  "@offline": {
+    "description": "Puce hors connexion"
+  },
+  "download": "Télécharger {title}",
+  "@download": {
+    "description": "Libellé accessible du bouton de téléchargement",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Titre de l'écran"
+  },
+  "backToHome": "Retour à l'accueil",
+  "@backToHome": {
+    "description": "Libellé accessible / bouton"
+  },
+  "markAllRead": "Tout lire",
+  "@markAllRead": {
+    "description": "Bouton tout marquer comme lu"
+  },
+  "filter": "Filtrer",
+  "@filter": {
+    "description": "Libellé du groupe de filtres"
+  },
+  "filterEverything": "Tout",
+  "@filterEverything": {
+    "description": "Filtre : tout"
+  },
+  "filterChanges": "Changements",
+  "@filterChanges": {
+    "description": "Filtre : changements"
+  },
+  "filterLessons": "Leçons",
+  "@filterLessons": {
+    "description": "Filtre : leçons"
+  },
+  "filterSchool": "École",
+  "@filterSchool": {
+    "description": "Filtre : école"
+  },
+  "toRemember": "À retenir",
+  "@toRemember": {
+    "description": "Titre de la section épinglée"
+  },
+  "seeTuesday": "Voir mardi",
+  "@seeTuesday": {
+    "description": "Bouton de l'élément épinglé"
+  },
+  "unread": "Non lu",
+  "@unread": {
+    "description": "Libellé accessible du point non-lu"
+  },
+  "messages": "Messages",
+  "@messages": {
+    "description": "Titre de l'écran messages"
+  },
+  "replyHours": "Les enseignants répondent en général entre 8h et 17h, du lundi au samedi.",
+  "@replyHours": {
+    "description": "Bandeau d'information"
+  },
+  "moderationNotice": "Chaque message est relu automatiquement pour rester respectueux. Seuls vous et l'enseignant le lisez.",
+  "@moderationNotice": {
+    "description": "Pied de la liste des messages"
+  },
+  "backToMessages": "Retour aux messages",
+  "@backToMessages": {
+    "description": "Libellé accessible"
+  },
+  "todayChip": "Aujourd'hui",
+  "@todayChip": {
+    "description": "Séparateur de date du fil"
+  },
+  "readReceipt": "Lu",
+  "@readReceipt": {
+    "description": "Accusé de lecture"
+  },
+  "justNowSent": "À l'instant · Envoyé",
+  "@justNowSent": {
+    "description": "Horodatage d'un message venant d'être envoyé"
+  },
+  "yourMessage": "Votre message",
+  "@yourMessage": {
+    "description": "Libellé accessible du champ de saisie"
+  },
+  "writeMessage": "Écrire un message…",
+  "@writeMessage": {
+    "description": "Placeholder du champ de saisie"
+  },
+  "attachFile": "Joindre un fichier",
+  "@attachFile": {
+    "description": "Libellé accessible"
+  },
+  "send": "Envoyer",
+  "@send": {
+    "description": "Libellé accessible du bouton d'envoi"
+  },
+  "writeTo": "Écrire à {name}",
+  "@writeTo": {
+    "description": "Libellé accessible",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "childProfile": "Profil de l'enfant",
+  "@childProfile": {
+    "description": "Titre de l'écran"
+  },
+  "classUpper": "CLASSE",
+  "@classUpper": {
+    "description": "Étiquette de statistique"
+  },
+  "roomUpper": "SALLE",
+  "@roomUpper": {
+    "description": "Étiquette de statistique"
+  },
+  "studentsUpper": "ÉLÈVES",
+  "@studentsUpper": {
+    "description": "Étiquette de statistique"
+  },
+  "histeachers": "Ses enseignants",
+  "@histeachers": {
+    "description": "Titre de section"
+  },
+  "theSchool": "L'école",
+  "@theSchool": {
+    "description": "Titre de section"
+  },
+  "schoolHours": "Lun–ven 8h–12h et 14h–16h · Mer et sam 8h–12h",
+  "@schoolHours": {
+    "description": "Horaires de l'école"
+  },
+  "schoolAddressPlaceholder": "[Adresse de l'école]",
+  "@schoolAddressPlaceholder": {
+    "description": "Adresse, telle quelle dans la maquette"
+  },
+  "callSchool": "Appeler l'école",
+  "@callSchool": {
+    "description": "Bouton d'appel"
+  },
+  "information": "Informations",
+  "@information": {
+    "description": "Titre de section"
+  },
+  "birthDate": "Date de naissance",
+  "@birthDate": {
+    "description": "Libellé d'information"
+  },
+  "birthDatePlaceholder": "[JJ/MM/AAAA]",
+  "@birthDatePlaceholder": {
+    "description": "Date, telle quelle dans la maquette"
+  },
+  "mainContact": "Contact principal",
+  "@mainContact": {
+    "description": "Libellé d'information"
+  },
+  "otherContact": "Autre contact",
+  "@otherContact": {
+    "description": "Libellé d'information"
+  },
+  "otherContactPlaceholder": "[Nom · téléphone]",
+  "@otherContactPlaceholder": {
+    "description": "Contact, tel quel dans la maquette"
+  },
+  "infoWrongNotice": "Une information est fausse ? Seule l'école peut la modifier — écrivez à l'enseignante principale.",
+  "@infoWrongNotice": {
+    "description": "Note de bas de section"
+  },
+  "studentGreeting": "Salut {name} !",
+  "@studentGreeting": {
+    "description": "Salutation de l'accueil élève",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "exitKidMode": "Quitter le mode enfant (code parent)",
+  "@exitKidMode": {
+    "description": "Libellé accessible"
+  },
+  "timeForSubject": "C'est l'heure des {subject} !",
+  "@timeForSubject": {
+    "description": "Bulle de Zitoun",
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      }
+    }
+  },
+  "listen": "Écouter",
+  "@listen": {
+    "description": "Libellé accessible du bouton de lecture audio"
+  },
+  "now": "Maintenant",
+  "@now": {
+    "description": "Libellé accessible de la carte en cours"
+  },
+  "withTeacher": "avec {name}",
+  "@withTeacher": {
+    "description": "Enseignant du cours en cours",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "untilTime": "jusqu'à {time}",
+  "@untilTime": {
+    "description": "Heure de fin du cours",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "myDay": "Ma journée",
+  "@myDay": {
+    "description": "Titre de section élève"
+  },
+  "lunch": "Déjeuner",
+  "@lunch": {
+    "description": "Libellé accessible de l'étape déjeuner"
+  },
+  "myLessons": "Mes leçons",
+  "@myLessons": {
+    "description": "Titre / carte élève"
+  },
+  "myWeek": "Ma semaine",
+  "@myWeek": {
+    "description": "Titre / carte élève"
+  },
+  "oneNewLesson": "1 nouvelle",
+  "@oneNewLesson": {
+    "description": "Badge de la carte leçons"
+  },
+  "days": "Jours",
+  "@days": {
+    "description": "Libellé des onglets de jour"
+  },
+  "morning": "Le matin",
+  "@morning": {
+    "description": "Titre de section"
+  },
+  "afternoon": "L'après-midi",
+  "@afternoon": {
+    "description": "Titre de section"
+  },
+  "noSchoolPlay": "Pas d'école, on joue !",
+  "@noSchoolPlay": {
+    "description": "Message d'après-midi libre, élève"
+  },
+  "subjects": "Matières",
+  "@subjects": {
+    "description": "Libellé des onglets de matière"
+  },
+  "newExclaim": "Nouveau !",
+  "@newExclaim": {
+    "description": "Puce nouveau, élève"
+  },
+  "openLesson": "Ouvrir {title}",
+  "@openLesson": {
+    "description": "Libellé accessible",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "nothingNewHere": "Rien de nouveau ici.",
+  "@nothingNewHere": {
+    "description": "État vide"
+  },
+  "teacherWillAdd": "Ta maîtresse ajoutera bientôt des leçons.",
+  "@teacherWillAdd": {
+    "description": "État vide"
+  },
+  "myAlerts": "Mes alertes",
+  "@myAlerts": {
+    "description": "Titre de l'écran alertes élève"
+  },
+  "tuesdayChanges": "Mardi, ça change !",
+  "@tuesdayChanges": {
+    "description": "Titre de l'alerte élève"
+  },
+  "newLesson": "Nouvelle leçon",
+  "@newLesson": {
+    "description": "Titre d'alerte"
+  },
+  "seeLesson": "Voir la leçon",
+  "@seeLesson": {
+    "description": "Libellé accessible"
+  },
+  "treeDayTitle": "Vendredi : la fête de l'arbre",
+  "@treeDayTitle": {
+    "description": "Titre d'alerte"
+  },
+  "treeDayBody": "Apporte une petite plante.",
+  "@treeDayBody": {
+    "description": "Corps d'alerte"
+  },
+  "bravoName": "Bravo {name} !",
+  "@bravoName": {
+    "description": "Félicitations",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "bravoBody": "Tu as ouvert toutes tes leçons de la semaine.",
+  "@bravoBody": {
+    "description": "Corps des félicitations"
+  },
+  "teacherGreeting": "Bonjour {name}",
+  "@teacherGreeting": {
+    "description": "Salutation de l'accueil enseignant",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "publishLesson": "Publier une leçon",
+  "@publishLesson": {
+    "description": "Bouton / titre"
+  },
+  "reportChange": "Signaler un changement",
+  "@reportChange": {
+    "description": "Bouton"
+  },
+  "myDayTeacher": "Ma journée",
+  "@myDayTeacher": {
+    "description": "Titre de section"
+  },
+  "sessionsCount": "{count} séances",
+  "@sessionsCount": {
+    "description": "Nombre de séances",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unreadMessages": "messages non lus",
+  "@unreadMessages": {
+    "description": "Libellé de statistique"
+  },
+  "lessonsPublishedThisWeek": "leçons publiées cette semaine",
+  "@lessonsPublishedThisWeek": {
+    "description": "Libellé de statistique"
+  },
+  "latestMessages": "Derniers messages",
+  "@latestMessages": {
+    "description": "Titre de section"
+  },
+  "classLabel": "Classe",
+  "@classLabel": {
+    "description": "Libellé de champ"
+  },
+  "subjectLabel": "Matière",
+  "@subjectLabel": {
+    "description": "Libellé de champ"
+  },
+  "lessonTitleLabel": "Titre de la leçon",
+  "@lessonTitleLabel": {
+    "description": "Libellé de champ"
+  },
+  "wordForFamilies": "Mot pour les familles",
+  "@wordForFamilies": {
+    "description": "Libellé de champ"
+  },
+  "optional": "(facultatif)",
+  "@optional": {
+    "description": "Suffixe de libellé"
+  },
+  "documents": "Documents",
+  "@documents": {
+    "description": "Libellé de section"
+  },
+  "removeFile": "Retirer le fichier",
+  "@removeFile": {
+    "description": "Libellé accessible"
+  },
+  "addFileOrPhoto": "Ajouter un fichier ou une photo",
+  "@addFileOrPhoto": {
+    "description": "Bouton d'ajout"
+  },
+  "notifyParents": "Prévenir les parents",
+  "@notifyParents": {
+    "description": "Libellé d'interrupteur"
+  },
+  "visibleInKidMode": "Visible dans le mode enfant",
+  "@visibleInKidMode": {
+    "description": "Libellé d'interrupteur"
+  },
+  "publishSummary": "{families} familles · notifiées : {who}",
+  "@publishSummary": {
+    "description": "Résumé avant publication",
+    "placeholders": {
+      "families": {
+        "type": "int"
+      },
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "audienceBoth": "parents et élèves",
+  "@audienceBoth": {
+    "description": "Audience"
+  },
+  "audienceParents": "parents",
+  "@audienceParents": {
+    "description": "Audience"
+  },
+  "audienceStudents": "élèves",
+  "@audienceStudents": {
+    "description": "Audience"
+  },
+  "audienceNobody": "personne",
+  "@audienceNobody": {
+    "description": "Audience"
+  },
+  "publishTheLesson": "Publier la leçon",
+  "@publishTheLesson": {
+    "description": "Bouton de publication"
+  },
+  "lessonPublished": "Leçon publiée !",
+  "@lessonPublished": {
+    "description": "Titre de la feuille de succès"
+  },
+  "lessonPublishedBody": "Les {families} familles de {classes} la retrouveront dans « Leçons ».",
+  "@lessonPublishedBody": {
+    "description": "Corps de la feuille de succès",
+    "placeholders": {
+      "families": {
+        "type": "int"
+      },
+      "classes": {
+        "type": "String"
+      }
+    }
+  },
+  "bothClasses": "4e A et 4e B",
+  "@bothClasses": {
+    "description": "Les deux classes"
+  },
+  "notifyFamilies": "Prévenir les familles",
+  "@notifyFamilies": {
+    "description": "Titre de l'écran absence"
+  },
+  "type": "Type",
+  "@type": {
+    "description": "Libellé du groupe de types"
+  },
+  "typeAbsence": "Mon absence",
+  "@typeAbsence": {
+    "description": "Type de signalement"
+  },
+  "typeSchedule": "Changement d’horaire",
+  "@typeSchedule": {
+    "description": "Type de signalement"
+  },
+  "typeAnnouncement": "Annonce",
+  "@typeAnnouncement": {
+    "description": "Type de signalement"
+  },
+  "whichDay": "Quel jour ?",
+  "@whichDay": {
+    "description": "Libellé de champ"
+  },
+  "yourAnnouncement": "Votre annonce",
+  "@yourAnnouncement": {
+    "description": "Libellé de champ"
+  },
+  "sessionsConcerned": "Cours concernés",
+  "@sessionsConcerned": {
+    "description": "Libellé de la liste de séances"
+  },
+  "whichSessionMoved": "Quel cours est déplacé ?",
+  "@whichSessionMoved": {
+    "description": "Libellé de la liste de séances"
+  },
+  "whatHappensToStudents": "Que se passe-t-il pour les élèves ?",
+  "@whatHappensToStudents": {
+    "description": "Libellé du groupe d'options"
+  },
+  "optionColleague": "Remplacé par un collègue",
+  "@optionColleague": {
+    "description": "Option d'absence"
+  },
+  "optionStudyRoom": "Étude surveillée",
+  "@optionStudyRoom": {
+    "description": "Option d'absence"
+  },
+  "optionCancelled": "Cours annulé, sortie plus tôt",
+  "@optionCancelled": {
+    "description": "Option d'absence"
+  },
+  "newDay": "Nouveau jour",
+  "@newDay": {
+    "description": "Libellé de champ"
+  },
+  "newTime": "Nouvelle heure",
+  "@newTime": {
+    "description": "Libellé de champ"
+  },
+  "whatParentsSee": "Ce que verront les parents",
+  "@whatParentsSee": {
+    "description": "Libellé de l'aperçu"
+  },
+  "notifyNFamilies": "Prévenir {count} familles",
+  "@notifyNFamilies": {
+    "description": "Bouton d'envoi",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "familiesNotified": "Familles prévenues",
+  "@familiesNotified": {
+    "description": "Titre de la feuille de succès"
+  },
+  "familiesNotifiedBody": "L'emploi du temps des élèves est mis à jour. La direction reçoit une copie.",
+  "@familiesNotifiedBody": {
+    "description": "Corps de la feuille de succès"
+  },
+  "sent": "Envoyé",
+  "@sent": {
+    "description": "Libellé accessible de la feuille de succès"
+  },
+  "writeToClass": "Écrire à une classe",
+  "@writeToClass": {
+    "description": "Bouton"
+  },
+  "availableForMessages": "Disponible pour les messages",
+  "@availableForMessages": {
+    "description": "Libellé accessible de l'interrupteur"
+  },
+  "availableHours": "Disponible · 8h–17h",
+  "@availableHours": {
+    "description": "Titre quand disponible"
+  },
+  "availableHoursBody": "Les parents voient vos horaires de réponse.",
+  "@availableHoursBody": {
+    "description": "Sous-titre quand disponible"
+  },
+  "onBreak": "En pause",
+  "@onBreak": {
+    "description": "Titre quand indisponible"
+  },
+  "onBreakBody": "Les parents sont informés que vous répondrez plus tard.",
+  "@onBreakBody": {
+    "description": "Sous-titre quand indisponible"
+  },
+  "filterUnread": "Non lues",
+  "@filterUnread": {
+    "description": "Filtre"
+  },
+  "absenceBodyColleague": "Un collègue assurera les cours. Horaires de sortie inchangés.",
+  "@absenceBodyColleague": {
+    "description": "Aperçu parent"
+  },
+  "absenceBodyStudy": "Les élèves seront en étude surveillée. Horaires inchangés.",
+  "@absenceBodyStudy": {
+    "description": "Aperçu parent"
+  },
+  "absenceBodyCancelled": "Les cours concernés sont annulés : sortie plus tôt, pensez à venir chercher votre enfant.",
+  "@absenceBodyCancelled": {
+    "description": "Aperçu parent"
+  },
+  "previewAbsenceKicker": "ABSENCE · {day}",
+  "@previewAbsenceKicker": {
+    "description": "Kicker de l'aperçu",
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "previewAbsenceTitle": "{name} sera absente",
+  "@previewAbsenceTitle": {
+    "description": "Titre de l'aperçu",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "previewScheduleKicker": "HORAIRE MODIFIÉ",
+  "@previewScheduleKicker": {
+    "description": "Kicker de l'aperçu"
+  },
+  "previewScheduleTitle": "Cours du {day} déplacé",
+  "@previewScheduleTitle": {
+    "description": "Titre de l'aperçu",
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "previewScheduleBody": "Le cours aura lieu jeudi 26 à 14:00, même salle.",
+  "@previewScheduleBody": {
+    "description": "Corps de l'aperçu"
+  },
+  "previewAnnouncementKicker": "ANNONCE · 4E A ET 4E B",
+  "@previewAnnouncementKicker": {
+    "description": "Kicker de l'aperçu"
+  },
+  "previewAnnouncementTitle": "Sortie au jardin public",
+  "@previewAnnouncementTitle": {
+    "description": "Titre de l'aperçu"
+  },
+  "previewAnnouncementBody": "Mardi matin : prévoir une casquette et une bouteille d’eau.",
+  "@previewAnnouncementBody": {
+    "description": "Corps de l'aperçu"
+  },
+  "moderationTitle": "Et si on le disait autrement ?",
+  "@moderationTitle": {
+    "description": "Titre de la feuille de modération"
+  },
+  "moderationSubtitle": "Votre message n'a pas été envoyé. Personne ne l'a vu.",
+  "@moderationSubtitle": {
+    "description": "Sous-titre rassurant"
+  },
+  "yourMessageUpper": "VOTRE MESSAGE",
+  "@yourMessageUpper": {
+    "description": "Étiquette de section"
+  },
+  "moderationExplain": "Les mots surlignés peuvent blesser. Votre inquiétude, elle, est légitime : gardons-la.",
+  "@moderationExplain": {
+    "description": "Explication de la modération"
+  },
+  "suggestionUpper": "PROPOSITION",
+  "@suggestionUpper": {
+    "description": "Étiquette de section"
+  },
+  "sendThisVersion": "Envoyer cette version",
+  "@sendThisVersion": {
+    "description": "Bouton d'envoi de la suggestion"
+  },
+  "rewriteMyself": "Je reformule moi-même",
+  "@rewriteMyself": {
+    "description": "Bouton de reformulation"
+  },
+  "rewriteThenSend": "Reformulez, puis envoyez à nouveau.",
+  "@rewriteThenSend": {
+    "description": "Consigne après reformulation"
+  },
+  "moderationThanks": "Merci, c'est parfait !",
+  "@moderationThanks": {
+    "description": "Confirmation après envoi"
+  },
+  "settingsTitle": "Profil et réglages",
+  "@settingsTitle": {
+    "description": "Titre de l'écran réglages"
+  },
+  "editProfile": "Modifier le profil",
+  "@editProfile": {
+    "description": "Libellé accessible"
+  },
+  "myChildren": "MES ENFANTS",
+  "@myChildren": {
+    "description": "Titre de section"
+  },
+  "addChildWithCode": "Ajouter un enfant avec un code",
+  "@addChildWithCode": {
+    "description": "Lien d'ajout d'enfant"
+  },
+  "languageAndDisplay": "LANGUE ET AFFICHAGE",
+  "@languageAndDisplay": {
+    "description": "Titre de section"
+  },
+  "textSize": "Taille du texte",
+  "@textSize": {
+    "description": "Libellé de réglage"
+  },
+  "textSizeSmall": "Petit",
+  "@textSizeSmall": {
+    "description": "Taille de texte"
+  },
+  "textSizeNormal": "Normal",
+  "@textSizeNormal": {
+    "description": "Taille de texte"
+  },
+  "textSizeLarge": "Grand",
+  "@textSizeLarge": {
+    "description": "Taille de texte"
+  },
+  "notificationsUpper": "NOTIFICATIONS",
+  "@notificationsUpper": {
+    "description": "Titre de section"
+  },
+  "notifAbsences": "Absences et changements",
+  "@notifAbsences": {
+    "description": "Réglage de notification"
+  },
+  "notifAbsencesBody": "Toujours activé : c’est l’essentiel",
+  "@notifAbsencesBody": {
+    "description": "Détail du réglage"
+  },
+  "notifNewLessons": "Nouvelles leçons",
+  "@notifNewLessons": {
+    "description": "Réglage de notification"
+  },
+  "notifNewLessonsBody": "Un résumé par jour",
+  "@notifNewLessonsBody": {
+    "description": "Détail du réglage"
+  },
+  "notifSchool": "Annonces de l’école",
+  "@notifSchool": {
+    "description": "Réglage de notification"
+  },
+  "notifSchoolBody": "Réunions, sorties, fêtes",
+  "@notifSchoolBody": {
+    "description": "Détail du réglage"
+  },
+  "notifQuietHours": "Heures calmes · 20h–7h",
+  "@notifQuietHours": {
+    "description": "Réglage de notification"
+  },
+  "notifQuietHoursBody": "Rien ne sonne la nuit, sauf urgence",
+  "@notifQuietHoursBody": {
+    "description": "Détail du réglage"
+  },
+  "alwaysOn": "Toujours activé",
+  "@alwaysOn": {
+    "description": "Libellé accessible de l'interrupteur verrouillé"
+  },
+  "kidModeAndSecurity": "MODE ENFANT ET SÉCURITÉ",
+  "@kidModeAndSecurity": {
+    "description": "Titre de section"
+  },
+  "openKidMode": "Ouvrir le mode enfant",
+  "@openKidMode": {
+    "description": "Lien vers le mode enfant"
+  },
+  "parentCodeToExit": "Code parent pour quitter",
+  "@parentCodeToExit": {
+    "description": "Réglage de sécurité"
+  },
+  "privacyAndData": "Confidentialité et données",
+  "@privacyAndData": {
+    "description": "Réglage de sécurité"
+  },
+  "signOut": "Se déconnecter",
+  "@signOut": {
+    "description": "Bouton de déconnexion"
+  },
+  "parentWithPhone": "Parent · [numéro de téléphone]",
+  "@parentWithPhone": {
+    "description": "Sous-titre du profil, tel quel dans la maquette"
+  },
+  "mainNavigation": "Navigation principale",
+  "@mainNavigation": {
+    "description": "Libellé accessible de la barre de navigation"
+  },
+  "navHome": "Accueil",
+  "@navHome": {
+    "description": "Onglet"
+  },
+  "navWeek": "Semaine",
+  "@navWeek": {
+    "description": "Onglet"
+  },
+  "navMyWeek": "Ma semaine",
+  "@navMyWeek": {
+    "description": "Onglet"
+  },
+  "navLessons": "Leçons",
+  "@navLessons": {
+    "description": "Onglet"
+  },
+  "navMessages": "Messages",
+  "@navMessages": {
+    "description": "Onglet"
+  },
+  "navProfile": "Profil",
+  "@navProfile": {
+    "description": "Onglet"
+  },
+  "navAlerts": "Alertes",
+  "@navAlerts": {
+    "description": "Onglet"
+  },
+  "navPublish": "Publier",
+  "@navPublish": {
+    "description": "Onglet"
+  },
+  "navChanges": "Changements",
+  "@navChanges": {
+    "description": "Onglet"
+  },
+  "errorInvalidCredentials": "Numéro ou mot de passe incorrect.",
+  "@errorInvalidCredentials": {
+    "description": "Erreur de connexion : identifiants invalides"
+  },
+  "demoAccountsTitle": "Comptes de démonstration",
+  "@demoAccountsTitle": {
+    "description": "Titre du bloc de comptes de test sur l’écran de connexion"
+  },
+  "demoAccountLine": "{role} · {phone} · {password}",
+  "@demoAccountLine": {
+    "description": "Une ligne de compte de demonstration",
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "phone": {
+        "type": "String"
+      },
+      "password": {
+        "type": "String"
+      }
+    }
+  }
+}

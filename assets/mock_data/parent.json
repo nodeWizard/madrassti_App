@@ -1,0 +1,571 @@
+{
+  "parentName": "Samia",
+  "children": [
+    {
+      "id": "yassine",
+      "name": "Yassine",
+      "grade": "4e année B",
+      "avatarBackground": "#FFC83D",
+      "avatarForeground": "#1B2559",
+      "mainTeacher": "Mme Ben Salah",
+      "hasAlert": true,
+      "newLessonsLabel": "2 nouvelles",
+      "timetable": [
+        {
+          "subject": "ar",
+          "start": 480,
+          "end": 570,
+          "teacher": "Mme Ben Salah",
+          "room": "Salle 4"
+        },
+        {
+          "subject": "ma",
+          "start": 585,
+          "end": 675,
+          "teacher": "Mme Ben Salah",
+          "room": "Salle 4"
+        },
+        {
+          "subject": "fr",
+          "start": 675,
+          "end": 720,
+          "teacher": "M. Gharbi",
+          "room": "Salle 4"
+        },
+        {
+          "subject": "ev",
+          "start": 840,
+          "end": 900,
+          "teacher": "Mme Trabelsi",
+          "room": "Labo"
+        },
+        {
+          "subject": "sp",
+          "start": 900,
+          "end": 960,
+          "teacher": "M. Jlassi",
+          "room": "Cour"
+        }
+      ],
+      "notifications": [
+        {
+          "kind": "lesson",
+          "title": "Nouvelle leçon · Français",
+          "body": "Les adjectifs qualificatifs — fiche PDF · 420 Ko",
+          "time": "il y a 1 h",
+          "unread": true
+        },
+        {
+          "kind": "change",
+          "title": "Changement d’horaire",
+          "body": "Demain : arts à la place de l’éveil scientifique (14h).",
+          "time": "il y a 2 h",
+          "unread": true
+        },
+        {
+          "kind": "school",
+          "title": "Annonce de l’école",
+          "body": "Réunion parents-enseignants samedi 28 nov. à 10h.",
+          "time": "hier",
+          "unread": false
+        }
+      ]
+    },
+    {
+      "id": "lina",
+      "name": "Lina",
+      "grade": "1re année A",
+      "avatarBackground": "#FFE1DC",
+      "avatarForeground": "#B83C30",
+      "mainTeacher": "Mme Chaabane",
+      "hasAlert": false,
+      "newLessonsLabel": "1 nouvelle",
+      "timetable": [
+        {
+          "subject": "ar",
+          "start": 480,
+          "end": 540,
+          "teacher": "Mme Chaabane",
+          "room": "Salle 1"
+        },
+        {
+          "subject": "ma",
+          "start": 540,
+          "end": 600,
+          "teacher": "Mme Chaabane",
+          "room": "Salle 1"
+        },
+        {
+          "subject": "art",
+          "start": 615,
+          "end": 660,
+          "teacher": "Mme Chaabane",
+          "room": "Salle 1"
+        },
+        {
+          "subject": "ar",
+          "start": 660,
+          "end": 720,
+          "teacher": "Mme Chaabane",
+          "room": "Salle 1"
+        },
+        {
+          "subject": "sp",
+          "start": 840,
+          "end": 900,
+          "teacher": "M. Jlassi",
+          "room": "Cour"
+        },
+        {
+          "subject": "ev",
+          "start": 900,
+          "end": 960,
+          "teacher": "Mme Chaabane",
+          "room": "Salle 1"
+        }
+      ],
+      "notifications": [
+        {
+          "kind": "lesson",
+          "title": "Nouvelle leçon · Arabe",
+          "body": "La lettre ب — fiche à colorier · 310 Ko",
+          "time": "il y a 3 h",
+          "unread": true
+        },
+        {
+          "kind": "message",
+          "title": "Message de Mme Chaabane",
+          "body": "Pensez au cahier de dessin pour la séance d’arts.",
+          "time": "hier",
+          "unread": false
+        },
+        {
+          "kind": "school",
+          "title": "Annonce de l’école",
+          "body": "Réunion parents-enseignants samedi 28 nov. à 10h.",
+          "time": "hier",
+          "unread": false
+        }
+      ]
+    }
+  ],
+  "teacherDirectory": {
+    "ar": {
+      "name": "Mme Ben Salah",
+      "room": "Salle 4"
+    },
+    "fr": {
+      "name": "M. Gharbi",
+      "room": "Salle 4"
+    },
+    "ma": {
+      "name": "Mme Ben Salah",
+      "room": "Salle 4"
+    },
+    "ev": {
+      "name": "Mme Trabelsi",
+      "room": "Labo"
+    },
+    "art": {
+      "name": "Mme Haddad",
+      "room": "Atelier"
+    },
+    "sp": {
+      "name": "M. Jlassi",
+      "room": "Cour"
+    }
+  },
+  "week": [
+    {
+      "shortLabel": "Lun",
+      "dayNumber": 23,
+      "fullLabel": "Lundi 23",
+      "hasChange": false,
+      "lessons": [
+        {
+          "subject": "ar",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "ma",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "fr",
+          "start": 675,
+          "end": 720
+        },
+        {
+          "subject": "ev",
+          "start": 840,
+          "end": 900
+        },
+        {
+          "subject": "sp",
+          "start": 900,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "shortLabel": "Mar",
+      "dayNumber": 24,
+      "fullLabel": "Mardi 24",
+      "hasChange": true,
+      "lessons": [
+        {
+          "subject": "fr",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "ar",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "ma",
+          "start": 675,
+          "end": 720
+        },
+        {
+          "subject": "art",
+          "start": 840,
+          "end": 900,
+          "changed": true
+        },
+        {
+          "subject": "ar",
+          "start": 900,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "shortLabel": "Mer",
+      "dayNumber": 25,
+      "fullLabel": "Mercredi 25",
+      "hasChange": false,
+      "lessons": [
+        {
+          "subject": "ma",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "ar",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "fr",
+          "start": 675,
+          "end": 720
+        }
+      ]
+    },
+    {
+      "shortLabel": "Jeu",
+      "dayNumber": 26,
+      "fullLabel": "Jeudi 26",
+      "hasChange": false,
+      "lessons": [
+        {
+          "subject": "ar",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "ev",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "ma",
+          "start": 675,
+          "end": 720
+        },
+        {
+          "subject": "fr",
+          "start": 840,
+          "end": 900
+        },
+        {
+          "subject": "sp",
+          "start": 900,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "shortLabel": "Ven",
+      "dayNumber": 27,
+      "fullLabel": "Vendredi 27",
+      "hasChange": false,
+      "lessons": [
+        {
+          "subject": "ma",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "fr",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "ar",
+          "start": 675,
+          "end": 720
+        },
+        {
+          "subject": "art",
+          "start": 840,
+          "end": 900
+        },
+        {
+          "subject": "ev",
+          "start": 900,
+          "end": 960
+        }
+      ]
+    },
+    {
+      "shortLabel": "Sam",
+      "dayNumber": 28,
+      "fullLabel": "Samedi 28",
+      "hasChange": false,
+      "lessons": [
+        {
+          "subject": "ar",
+          "start": 480,
+          "end": 570
+        },
+        {
+          "subject": "ma",
+          "start": 585,
+          "end": 675
+        },
+        {
+          "subject": "sp",
+          "start": 675,
+          "end": 720
+        }
+      ]
+    }
+  ],
+  "documentGroups": [
+    {
+      "subject": "fr",
+      "documents": [
+        {
+          "title": "Les adjectifs qualificatifs",
+          "meta": "M. Gharbi · 23 nov. · PDF 420 Ko",
+          "type": "PDF",
+          "isNew": true
+        },
+        {
+          "title": "Dictée n° 6 — à préparer",
+          "meta": "M. Gharbi · 19 nov. · PDF 180 Ko",
+          "type": "PDF",
+          "offline": true
+        }
+      ]
+    },
+    {
+      "subject": "ma",
+      "documents": [
+        {
+          "title": "La multiplication posée",
+          "meta": "Mme Ben Salah · 22 nov. · PDF 650 Ko",
+          "type": "PDF",
+          "isNew": true
+        },
+        {
+          "title": "Problèmes : la monnaie",
+          "meta": "Mme Ben Salah · 17 nov. · Photo 1,2 Mo",
+          "type": "IMG"
+        }
+      ]
+    },
+    {
+      "subject": "ar",
+      "documents": [
+        {
+          "title": "النص : في السوق",
+          "meta": "Mme Ben Salah · 20 nov. · PDF 300 Ko",
+          "type": "PDF",
+          "offline": true
+        }
+      ]
+    },
+    {
+      "subject": "ev",
+      "documents": [
+        {
+          "title": "Le cycle de l’eau",
+          "meta": "Mme Trabelsi · 16 nov. · PDF 2,1 Mo",
+          "type": "PDF"
+        }
+      ]
+    }
+  ],
+  "pinnedNotification": {
+    "kind": "change",
+    "title": "Mme Trabelsi sera absente",
+    "body": "L’éveil scientifique de 14h est remplacé par une séance d’arts avec Mme Haddad. Horaires de sortie inchangés.",
+    "time": "il y a 2 h",
+    "who": "yassine"
+  },
+  "people": {
+    "yassine": {
+      "name": "Yassine",
+      "background": "#FFC83D",
+      "foreground": "#1B2559"
+    },
+    "lina": {
+      "name": "Lina",
+      "background": "#FFE1DC",
+      "foreground": "#B83C30"
+    },
+    "school": {
+      "name": "École",
+      "background": "#1B2559",
+      "foreground": "#FFFFFF"
+    }
+  },
+  "notificationSections": [
+    {
+      "title": "Aujourd’hui",
+      "items": [
+        {
+          "kind": "lesson",
+          "title": "Nouvelle leçon · Français",
+          "body": "Les adjectifs qualificatifs — fiche PDF",
+          "time": "il y a 1 h",
+          "unread": true,
+          "who": "yassine"
+        },
+        {
+          "kind": "lesson",
+          "title": "Nouvelle leçon · Arabe",
+          "body": "La lettre ب — fiche à colorier",
+          "time": "il y a 3 h",
+          "unread": true,
+          "who": "lina"
+        }
+      ]
+    },
+    {
+      "title": "Hier",
+      "items": [
+        {
+          "kind": "change",
+          "title": "Horaire modifié",
+          "body": "Jeudi : le sport passe de 15h à 14h.",
+          "time": "hier",
+          "who": "yassine"
+        },
+        {
+          "kind": "school",
+          "title": "Réunion parents-enseignants",
+          "body": "Samedi 28 nov. à 10h, salle polyvalente.",
+          "time": "hier",
+          "who": "school"
+        }
+      ]
+    },
+    {
+      "title": "Cette semaine",
+      "items": [
+        {
+          "kind": "school",
+          "title": "Journée de l’arbre",
+          "body": "Vendredi 27 : chaque élève apporte une petite plante.",
+          "time": "jeu. 19",
+          "who": "school"
+        },
+        {
+          "kind": "lesson",
+          "title": "Nouvelle leçon · Éveil",
+          "body": "Le cycle de l’eau — PDF 2,1 Mo",
+          "time": "lun. 16",
+          "who": "yassine"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "initials": "BS",
+      "name": "Mme Ben Salah",
+      "role": "Enseignante principale · Yassine",
+      "lastMessage": "Avec plaisir ! Je vous envoie la fiche ce soir.",
+      "time": "10:12",
+      "unread": 2,
+      "avatarBackground": "#DCEBFF",
+      "avatarForeground": "#1F5FBF"
+    },
+    {
+      "initials": "G",
+      "name": "M. Gharbi",
+      "role": "Français · Yassine",
+      "lastMessage": "Vous : Merci pour la dictée de cette semaine.",
+      "time": "hier",
+      "unread": 0,
+      "avatarBackground": "#FFF0C7",
+      "avatarForeground": "#8A5A00"
+    },
+    {
+      "initials": "C",
+      "name": "Mme Chaabane",
+      "role": "Enseignante principale · Lina",
+      "lastMessage": "Pensez au cahier de dessin pour mardi.",
+      "time": "hier",
+      "unread": 0,
+      "avatarBackground": "#FFE1DC",
+      "avatarForeground": "#B83C30"
+    },
+    {
+      "initials": "É",
+      "name": "Direction de l’école",
+      "role": "Annonces · lecture seule",
+      "lastMessage": "Réunion parents-enseignants samedi 28 nov.",
+      "time": "lun.",
+      "unread": 0,
+      "avatarBackground": "#1B2559",
+      "avatarForeground": "#FFFFFF",
+      "locked": true
+    }
+  ],
+  "chatThread": [
+    {
+      "text": "Bonjour Madame. Yassine a très bien participé en mathématiques ce matin.",
+      "mine": false,
+      "time": "09:40"
+    },
+    {
+      "text": "Merci beaucoup ! Pourriez-vous m’envoyer la fiche sur la multiplication ? Il veut s’entraîner à la maison.",
+      "mine": true,
+      "time": "10:05",
+      "readReceipt": true
+    },
+    {
+      "text": "Avec plaisir ! La voici :",
+      "mine": false,
+      "time": "10:12",
+      "attachment": {
+        "subject": "ma",
+        "title": "La multiplication posée",
+        "meta": "PDF · 650 Ko"
+      }
+    }
+  ],
+  "quickReplies": [
+    "Merci beaucoup !",
+    "Bien reçu",
+    "Pouvons-nous en parler ?"
+  ]
+}

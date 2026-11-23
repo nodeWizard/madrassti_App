@@ -1,0 +1,136 @@
+{
+  "teacherName": "Mme Ben Salah",
+  "headerLabel": "Lundi 23 novembre · École Ibn Khaldoun",
+  "todaySlots": [
+    {
+      "time": 480,
+      "subject": "ar",
+      "className": "4e B",
+      "room": "Salle 4",
+      "state": "done"
+    },
+    {
+      "time": 585,
+      "subject": "ma",
+      "className": "4e B",
+      "room": "Salle 4",
+      "state": "now"
+    },
+    {
+      "time": 840,
+      "subject": "ar",
+      "className": "4e A",
+      "room": "Salle 6",
+      "state": "upcoming"
+    },
+    {
+      "time": 900,
+      "subject": "ma",
+      "className": "4e A",
+      "room": "Salle 6",
+      "state": "upcoming"
+    }
+  ],
+  "unreadMessageCount": 5,
+  "lessonsPublishedThisWeek": 3,
+  "sessionsNote": "09:45 and 11:15 swapped from the mockup text (Mathématiques/Arabe) to agree with the teacher's own agenda and the parent week screen. See docs/SPEC.md §5.1 A2.",
+  "sessions": [
+    {
+      "time": 585,
+      "subject": "ma",
+      "className": "4e B · 28 élèves",
+      "familyCount": 28
+    },
+    {
+      "time": 675,
+      "subject": "ar",
+      "className": "4e B · 28 élèves",
+      "familyCount": 0
+    },
+    {
+      "time": 840,
+      "subject": "ar",
+      "className": "4e A · 27 élèves",
+      "familyCount": 27
+    }
+  ],
+  "classes": [
+    {
+      "id": "4A",
+      "label": "4e A",
+      "familyCount": 27
+    },
+    {
+      "id": "4B",
+      "label": "4e B",
+      "familyCount": 28
+    },
+    {
+      "id": "both",
+      "label": "Les deux",
+      "familyCount": 55
+    }
+  ],
+  "conversations": [
+    {
+      "initials": "S",
+      "name": "Samia",
+      "role": "maman de Yassine",
+      "childLabel": "maman de Yassine",
+      "classLabel": "4e B",
+      "lastMessage": "Merci ! Pourriez-vous m’envoyer la fiche…",
+      "time": "10:05",
+      "unread": 1,
+      "avatarBackground": "#FFF0C7",
+      "avatarForeground": "#8A5A00"
+    },
+    {
+      "initials": "K",
+      "name": "Karim",
+      "role": "papa d’Amira",
+      "childLabel": "papa d’Amira",
+      "classLabel": "4e B",
+      "lastMessage": "Amira sera absente jeudi matin (rendez-vous).",
+      "time": "08:31",
+      "unread": 2,
+      "avatarBackground": "#D9F5E8",
+      "avatarForeground": "#1E7A57"
+    },
+    {
+      "initials": "N",
+      "name": "Nour",
+      "role": "maman d’Elyes",
+      "childLabel": "maman d’Elyes",
+      "classLabel": "4e A",
+      "lastMessage": "Elyes n’a pas compris l’exercice 3.",
+      "time": "hier",
+      "unread": 2,
+      "avatarBackground": "#FFE1DC",
+      "avatarForeground": "#B83C30"
+    },
+    {
+      "initials": "H",
+      "name": "Hédi",
+      "role": "papa de Sarra",
+      "childLabel": "papa de Sarra",
+      "classLabel": "4e A",
+      "lastMessage": "Vous : Bien reçu, merci pour l’information.",
+      "time": "hier",
+      "unread": 0,
+      "avatarBackground": "#DCEBFF",
+      "avatarForeground": "#1F5FBF"
+    },
+    {
+      "initials": "M",
+      "name": "Mouna",
+      "role": "maman de Rayen",
+      "childLabel": "maman de Rayen",
+      "classLabel": "4e B",
+      "lastMessage": "Vous : Rayen a fait de beaux progrès !",
+      "time": "ven.",
+      "unread": 0,
+      "avatarBackground": "#FFE3EE",
+      "avatarForeground": "#A8326A"
+    }
+  ]
+}

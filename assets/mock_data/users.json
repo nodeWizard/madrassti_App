@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "samia",
+      "role": "parent",
+      "firstName": "Samia",
+      "lastName": "Trabelsi",
+      "phone": "12345678",
+      "password": "parent123",
+      "note": "Parent de Yassine et Lina."
+    },
+    {
+      "id": "lina",
+      "role": "eleve",
+      "firstName": "Lina",
+      "lastName": "Trabelsi",
+      "phone": "22334455",
+      "password": "eleve123",
+      "note": "Élève, 1re année A."
+    },
+    {
+      "id": "bensalah",
+      "role": "enseignant",
+      "firstName": "Leila",
+      "lastName": "Ben Salah",
+      "phone": "98765432",
+      "password": "ensgn123",
+      "note": "Enseignante principale, 4e B."
+    }
+  ]
+}
