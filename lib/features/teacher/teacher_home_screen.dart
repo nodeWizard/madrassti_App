@@ -39,33 +39,38 @@ class TeacherHomeScreen extends ConsumerWidget {
         ),
 
         // -------------------------------------------------------- actions
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: PrimaryButton(
-                label: l10n.publishLesson,
-                icon: AppIcons.upload,
-                height: 60,
-                radius: AppRadii.button,
-                textStyle: AppTextStyles.nunito(
-                  size: 15,
-                  weight: FontWeight.w800,
+        // IntrinsicHeight: a Row with CrossAxisAlignment.stretch needs a
+        // bounded height to stretch into, which the scrolling AppScreen
+        // column otherwise doesn't give it.
+        IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Expanded(
+                child: PrimaryButton(
+                  label: l10n.publishLesson,
+                  icon: AppIcons.upload,
+                  height: 60,
+                  radius: AppRadii.button,
+                  textStyle: AppTextStyles.nunito(
+                    size: 15,
+                    weight: FontWeight.w800,
+                  ),
+                  onPressed: () => context.go(Routes.teacherPublish),
                 ),
-                onPressed: () => context.go(Routes.teacherPublish),
               ),
-            ),
-            const SizedBox(width: AppSpacing.x10),
-            Expanded(
-              child: NavyButton(
-                label: l10n.reportChange,
-                icon: AppIcons.swap,
-                height: 60,
-                radius: AppRadii.button,
-                onPressed: () => context.go(Routes.teacherAbsence),
+              const SizedBox(width: AppSpacing.x10),
+              Expanded(
+                child: NavyButton(
+                  label: l10n.reportChange,
+                  icon: AppIcons.swap,
+                  height: 60,
+                  radius: AppRadii.button,
+                  onPressed: () => context.go(Routes.teacherAbsence),
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
 
         // -------------------------------------------------------- agenda
@@ -99,31 +104,33 @@ class TeacherHomeScreen extends ConsumerWidget {
         ),
 
         // ---------------------------------------------------- statistics
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: _StatCard(
-                icon: AppIcons.message,
-                tint: AppColors.infoTint,
-                ink: AppColors.info,
-                value: '${repo.unreadMessageCount}',
-                label: l10n.unreadMessages,
-                onTap: () => context.go(Routes.teacherMessages),
+        IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Expanded(
+                child: _StatCard(
+                  icon: AppIcons.message,
+                  tint: AppColors.infoTint,
+                  ink: AppColors.info,
+                  value: '${repo.unreadMessageCount}',
+                  label: l10n.unreadMessages,
+                  onTap: () => context.go(Routes.teacherMessages),
+                ),
               ),
-            ),
-            const SizedBox(width: AppSpacing.x10),
-            Expanded(
-              child: _StatCard(
-                icon: AppIcons.book,
-                tint: AppColors.successTint,
-                ink: AppColors.success,
-                value: '${repo.lessonsPublishedThisWeek}',
-                label: l10n.lessonsPublishedThisWeek,
-                onTap: () => context.go(Routes.teacherPublish),
+              const SizedBox(width: AppSpacing.x10),
+              Expanded(
+                child: _StatCard(
+                  icon: AppIcons.book,
+                  tint: AppColors.successTint,
+                  ink: AppColors.success,
+                  value: '${repo.lessonsPublishedThisWeek}',
+                  label: l10n.lessonsPublishedThisWeek,
+                  onTap: () => context.go(Routes.teacherPublish),
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
 
         // ------------------------------------------------- latest messages
@@ -174,63 +181,59 @@ class _SlotRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // `Container.margin` must be non-negative, so the -8px bleed to the
-    // card's own edges (matching the mockup's `margin: 0 -8px`) goes on a
-    // `Padding` instead, which allows negative insets.
+    // The mockup bleeds this row's highlight 8px past the card's own edges
+    // (`margin: 0 -8px`). Neither Container.margin nor Padding accept a
+    // negative inset in Flutter, so the row instead keeps a plain
+    // non-negative padding — the highlighted background stays within the
+    // card, a pixel-level difference rather than a structural one.
     return Opacity(
       opacity: slot.state == TeacherSlotState.done ? 0.5 : 1,
-      child: Padding(
-        padding: const EdgeInsetsDirectional.symmetric(horizontal: -8),
-        child: Container(
-          padding: const EdgeInsetsDirectional.symmetric(
-            horizontal: AppSpacing.x8,
-            vertical: AppSpacing.x8,
-          ),
-          decoration: BoxDecoration(
-            color: slot.state == TeacherSlotState.now
-                ? AppColors.warnRow
-                : const Color(0x00000000),
-            borderRadius: BorderRadius.circular(AppRadii.field),
-          ),
-          child: Row(
-            children: [
-              SizedBox(
-                width: 46,
-                child: Text(
-                  slot.time.hhmm,
-                  style: AppTextStyles.nunito(
-                    size: 14,
-                    weight: FontWeight.w800,
+      child: Container(
+        padding: const EdgeInsetsDirectional.symmetric(
+          horizontal: AppSpacing.x8,
+          vertical: AppSpacing.x8,
+        ),
+        decoration: BoxDecoration(
+          color: slot.state == TeacherSlotState.now
+              ? AppColors.warnRow
+              : const Color(0x00000000),
+          borderRadius: BorderRadius.circular(AppRadii.field),
+        ),
+        child: Row(
+          children: [
+            SizedBox(
+              width: 46,
+              child: Text(
+                slot.time.hhmm,
+                style: AppTextStyles.nunito(size: 14, weight: FontWeight.w800),
+              ),
+            ),
+            SubjectTile(
+              subject: slot.subject,
+              size: 36,
+              excludeSemantics: true,
+            ),
+            const SizedBox(width: AppSpacing.x12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    AppSubjects.of(slot.subject).name,
+                    style: AppTextStyles.nunito(
+                      size: 15,
+                      weight: FontWeight.w800,
+                    ),
                   ),
-                ),
+                  Text(
+                    '${slot.className} · ${slot.room}',
+                    style: AppTextStyles.metaSmall,
+                  ),
+                ],
               ),
-              SubjectTile(
-                subject: slot.subject,
-                size: 36,
-                excludeSemantics: true,
-              ),
-              const SizedBox(width: AppSpacing.x12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      AppSubjects.of(slot.subject).name,
-                      style: AppTextStyles.nunito(
-                        size: 15,
-                        weight: FontWeight.w800,
-                      ),
-                    ),
-                    Text(
-                      '${slot.className} · ${slot.room}',
-                      style: AppTextStyles.metaSmall,
-                    ),
-                  ],
-                ),
-              ),
-              if (slot.state == TeacherSlotState.now) StatusChip.inProgress(),
-            ],
-          ),
+            ),
+            if (slot.state == TeacherSlotState.now) StatusChip.inProgress(),
+          ],
         ),
       ),
     );
